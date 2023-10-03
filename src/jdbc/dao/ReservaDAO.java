@@ -45,7 +45,8 @@ public class ReservaDAO {
 	}
 	
 	public List<Reserva> buscar() {
-		List<Reserva> reservas = new ArrayList<Reserva>();
+		List<Reserva> reservas;
+		reservas = new ArrayList<Reserva>();
 		try {
 			String sql = "SELECT id, fecha_entrada, fecha_salida, valor, formaPago FROM reservas";
 
@@ -61,7 +62,8 @@ public class ReservaDAO {
 	}
 	
 	public List<Reserva> buscarId(String id) {
-		List<Reserva> reservas = new ArrayList<Reserva>();
+		List<Reserva> reservas;
+		reservas = new ArrayList<Reserva>();
 		try {
 
 			String sql = "SELECT id, fecha_entrada, fecha_salida, valor, formaPago FROM reservas WHERE id = ?";
