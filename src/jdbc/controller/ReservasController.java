@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.util.List;
 import jdb.factory.ConnectionFactory;
 import jdbc.dao.ReservaDAO;
+import jdbc.dao.ReservaDAOBuilder;
 import jdbc.modelo.Reserva;
 
 public class ReservasController {
@@ -12,7 +13,7 @@ public class ReservasController {
  
  public ReservasController() {
 		Connection connection = new ConnectionFactory().recuperarConexion();
-		this.reservaDAO = new ReservaDAO(connection);
+		this.reservaDAO = new ReservaDAOBuilder().setConnection(connection).createReservaDAO();
 	}
  
 	public void guardar(Reserva reserva) {

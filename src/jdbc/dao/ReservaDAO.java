@@ -12,7 +12,7 @@ import jdbc.modelo.Reserva;
 
 public class ReservaDAO {
 	
-	private Connection connection;
+	private final Connection connection;
 	
 	public ReservaDAO(Connection connection) {
 		this.connection = connection;
@@ -20,7 +20,8 @@ public class ReservaDAO {
 	
 	public void guardar(Reserva reserva) {
 		try {
-			String sql = "INSERT INTO reservas (fecha_entrada, fecha_salida, valor, formaPago) VALUES (?, ?, ?, ?)";
+			String sql;
+			sql = "INSERT INTO reservas (fecha_entrada, fecha_salida, valor, formaPago) VALUES (?, ?, ?, ?)";
 
 			try (PreparedStatement pstm = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
