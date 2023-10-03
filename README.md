@@ -20,7 +20,7 @@ Tecnologías Utilizadas:
 
 ### Login
 <p align="center" >
-     <img width="600" heigth="600" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\CapturasProyecto\Capturas HotelAluraChallenge.png">
+     <img width="600" heigth="600" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20023959.png?raw=true">
 </p>
 
 ### Reservas
