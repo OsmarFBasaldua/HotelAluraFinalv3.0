@@ -104,12 +104,12 @@ public class RegistroHuesped extends JFrame {
 			}			
 			@Override
 			public void mouseExited(MouseEvent e) {
-				 btnAtras.setBackground(new Color(12, 138, 199));
+				 btnAtras.setBackground(new Color(1, 32, 80));
 			     labelAtras.setForeground(Color.white);
 			}
 		});
 		btnAtras.setLayout(null);
-		btnAtras.setBackground(new Color(12, 138, 199));
+		btnAtras.setBackground(new Color(1, 32, 80));
 		btnAtras.setBounds(0, 0, 53, 36);
 		header.add(btnAtras);
 		
