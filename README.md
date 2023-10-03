@@ -15,39 +15,42 @@ Tecnologías Utilizadas:
 
 ### Menu Pricipal
 <p align="center" >
-     <img width="700" heigth="700" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\CapturasProyecto\Capturas Hotel.png">
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Capturas%20Hotel.png?raw=true">
 </p>
 
 ### Login
 <p align="center" >
-     <img width="600" heigth="600" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20023959.png?raw=true">
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20023959.png?raw=true">
 </p>
 
-### Reservas
-
+### Sistema de Reserva
 <p align="center" >
-     <img width="600" heigth="600" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\CapturasProyecto\Captura de pantalla 2023-10-03 025329.png">
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20025329.png?raw=true">
+</p>
+
+### Registro Huesped
+<p align="center" >
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20025509.png?raw=true">
 </p>
 
 ### Datos Guardados
 <p align="center" >
-     <img width="500" heigth="500" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\CapturasProyecto\Captura de pantalla 2023-10-03 025540.png">
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20025540.png?raw=true">
 </p>
 
-### Sistema de Reservas
+### Menu Usuarios
 <p align="center" >
-     <img width="500" heigth="500" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\CapturasProyecto\Captura de pantalla 2023-10-03 025609.png">
-</p>
-
-### Reservas
-
-<p align="center" >
-     <img width="500" heigth="500" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\CapturasProyecto\Captura de pantalla 2023-10-03 025641.png">
-</p>
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20025609.png?raw=true">
+</p>}
 
 ### Huéspedes
 <p align="center" >
-     <img width="500" heigth="500" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\CapturasProyecto\Captura de pantalla 2023-10-03 025703.png">
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20025641.png?raw=true">
+</p>
+
+### Reservas
+<p align="center" >
+     <img width="700" heigth="700" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Captura%20de%20pantalla%202023-10-03%20025703.png?raw=true">
 </p>
 
 ### challengeoneforoalura5
