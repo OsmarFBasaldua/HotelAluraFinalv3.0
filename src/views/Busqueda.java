@@ -70,7 +70,7 @@ public class Busqueda extends JFrame {
 	public Busqueda() {
 		this.reservaController = new ReservasController();
 		this.huespedesController = new HuespedesController();
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Busqueda.class.getResource("/imagenes/lupa2.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Busqueda.class.getResource("/imagenes/Lupa2.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 571);
 		contentPane = new JPanel();

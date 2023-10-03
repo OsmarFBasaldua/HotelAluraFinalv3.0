@@ -84,7 +84,7 @@ public class RegistroHuesped extends JFrame {
 		header.setOpaque(false);
 		header.setBounds(0, 0, 910, 36);
 		contentPane.add(header);
-		
+
 		JPanel btnAtras = new JPanel();
 		btnAtras.addMouseListener(new MouseAdapter() {
 			@Override
@@ -135,7 +135,7 @@ public class RegistroHuesped extends JFrame {
 		
 		txtFechaN = new JDateChooser();
 		txtFechaN.setBounds(560, 278, 285, 36);
-		txtFechaN.getCalendarButton().setIcon(new ImageIcon(RegistroHuesped.class.getResource("/imagenes/icon-reservas.png")));
+		txtFechaN.getCalendarButton().setIcon(new ImageIcon(RegistroHuesped.class.getResource("/imagenes/IconoReservas.png")));
 		txtFechaN.getCalendarButton().setBackground(SystemColor.WHITE);
 		txtFechaN.setDateFormatString("yyyy-MM-dd");
 		contentPane.add(txtFechaN);

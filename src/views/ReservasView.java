@@ -110,12 +110,12 @@ public class ReservasView extends JFrame {
 		
 		txtFechaE = new JDateChooser();
 		txtFechaE.getCalendarButton().setBackground(SystemColor.textHighlight);
-		txtFechaE.getCalendarButton().setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/icon-reservas.png")));
+		txtFechaE.getCalendarButton().setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/IconoReservas.png")));
 		txtFechaE.getCalendarButton().setFont(new Font("Roboto", Font.PLAIN, 12));
 		txtFechaE.setBounds(68, 161, 289, 35);
 		txtFechaE.getCalendarButton().setBounds(268, 0, 21, 33);
 		txtFechaE.setBackground(Color.WHITE);
-		txtFechaE.setBorder(new LineBorder(SystemColor.window));
+		txtFechaE.setBorder(new LineBorder(SystemColor.WHITE));
 		txtFechaE.setDateFormatString("yyyy-MM-dd");
 		txtFechaE.setFont(new Font("Roboto", Font.PLAIN, 18));
 		panel.add(txtFechaE);
@@ -140,7 +140,7 @@ public class ReservasView extends JFrame {
 		panel.add(lblCheckOut);
 		
 		txtFechaS = new JDateChooser();
-		txtFechaS.getCalendarButton().setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/icon-reservas.png")));
+		txtFechaS.getCalendarButton().setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/IconoReservas.png")));
 		txtFechaS.getCalendarButton().setFont(new Font("Roboto", Font.PLAIN, 11));
 		txtFechaS.setBounds(68, 246, 289, 35);
 		txtFechaS.getCalendarButton().setBounds(267, 1, 21, 31);
@@ -207,7 +207,7 @@ public class ReservasView extends JFrame {
 		Logo.setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/HotelAluraLogo1.png")));
 		
 		JLabel ImagenFondo = new JLabel("");
-		ImagenFondo.setBounds(0, 140, 500, 409);
+		ImagenFondo.setBounds(0, 75, 500, 409);
 		panel_1.add(ImagenFondo);
 		ImagenFondo.setBackground(Color.WHITE);
 		ImagenFondo.setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/reservas-img-3.png")));
@@ -315,10 +315,10 @@ public class ReservasView extends JFrame {
 		panel.add(btnsiguiente);
 		btnsiguiente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 		
-		JLabel lblSiguiente = new JLabel("SIGUIENTE");
+		JLabel lblSiguiente = new JLabel("Siguiente");
 		lblSiguiente.setHorizontalAlignment(SwingConstants.CENTER);
 		lblSiguiente.setForeground(Color.WHITE);
-		lblSiguiente.setFont(new Font("Roboto", Font.PLAIN, 18));
+		lblSiguiente.setFont(new Font("Roboto", Font.PLAIN, 16));
 		lblSiguiente.setBounds(0, 0, 122, 35);
 		btnsiguiente.add(lblSiguiente);
 	}

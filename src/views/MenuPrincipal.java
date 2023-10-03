@@ -151,7 +151,7 @@ public class MenuPrincipal extends JFrame {
 		lblLogin.setBounds(0, 0, 80, 70);
 		btnLogin.add(lblLogin);
 		lblLogin.setHorizontalAlignment(SwingConstants.CENTER);
-		lblLogin.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/login.png")));
+		lblLogin.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/Login.png")));
 
 		JLabel lblTitulo = new JLabel("Login");
 		lblTitulo.setBounds(754, 265, 83, 24);
