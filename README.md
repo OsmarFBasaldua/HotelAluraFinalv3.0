@@ -1,7 +1,7 @@
 # HotelAlura | Challenge ONE
 
 <p align="center" >
-     <img width="300" heigth="300" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\imagenes\Logo300.png">
+     <img width="300" heigth="300" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/imagenes/Logo300.png?raw=true">
 </p>
 
 Tecnologías Utilizadas:
