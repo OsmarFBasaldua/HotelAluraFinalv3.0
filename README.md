@@ -15,7 +15,7 @@ Tecnologías Utilizadas:
 # Capturas Proyecto
 
 ### Menu Pricipal
-<p align="left" >
+<p align="center" >
      <img width="600" heigth="600" src="https://github.com/OsmarFBasaldua/HotelAluraFinalv3.0/blob/master/src/CapturasProyecto/Capturas%20Hotel.png?raw=true">
 </p>
 
