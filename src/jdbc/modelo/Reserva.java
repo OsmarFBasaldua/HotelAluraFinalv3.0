@@ -5,24 +5,24 @@ import java.sql.Date;
 public class Reserva {
 	
 	private Integer id;
-	private Date fechaE;
-	private Date fechaS;
+	private Date fecha_entrada;
+	private Date fecha_salida;
 	private String valor;
 	private String formaPago;
-	
-	
-	public Reserva(Date fechaE, Date fechaS, String valor, String formaPago) {
+
+
+	public Reserva(Date fecha_entrada, Date fecha_salida, String valor, String formaPago) {
 		super();		
-		this.fechaE = fechaE;
-		this.fechaS = fechaS;
+		this.fecha_entrada = fecha_entrada;
+		this.fecha_salida = fecha_salida;
 		this.valor = valor;
 		this.formaPago = formaPago;
 	}
 		
-	public Reserva(Integer id, Date fechaE, Date fechaS, String valor, String formaPago) {
+	public Reserva(Integer id, Date fecha_entrada, Date fecha_salida, String valor, String formaPago) {
 		this.id = id;
-		this.fechaE = fechaE;
-		this.fechaS = fechaS;
+		this.fecha_entrada = fecha_entrada;
+		this.fecha_salida = fecha_salida;
 		this.valor = valor;
 		this.formaPago = formaPago;
 	}
@@ -36,11 +36,11 @@ public class Reserva {
 	}
 
 	public Date getfechaE() {
-		return fechaE;
+		return fecha_entrada;
 	}
 
 	public Date getfechaS() {
-		return fechaS;
+		return fecha_salida;
 	}
 
 	public String getvalor() {
@@ -52,13 +52,10 @@ public class Reserva {
 	}
 
 	
-//	@Override
-//	public String toString() {
-//		// TODO Auto-generated method stub
-//		return String.format("La reserva generada fue: %d, %s, %s, %s, %s", this.id, this.fechaE, this.fechaS, this.valor, this.formaPago);
-//	}
-//	
-	
-	
+@Override
+public String toString() {
+// TODO Auto-generated method stub
+return String.format("La reserva generada fue: %d, %s, %s, %s, %s", this.id, this.fecha_entrada, this.fecha_salida, this.valor, this.formaPago);
+	}
 }
 

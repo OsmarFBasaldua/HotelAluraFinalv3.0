@@ -8,11 +8,7 @@ import java.awt.Panel;
 import java.awt.Color;
 import java.awt.SystemColor;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 import java.awt.Font;
 import java.awt.Toolkit;
 import javax.swing.SwingConstants;
@@ -47,7 +43,7 @@ public class MenuPrincipal extends JFrame {
 	 * Create the frame.
 	 */
 	public MenuPrincipal() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuPrincipal.class.getResource("/imagenes/aH-40px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuPrincipal.class.getResource("/imagenes/HotelAluraLogo.png")));
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setBounds(100, 100, 910, 537);
 		contentPane = new JPanel();
@@ -67,12 +63,12 @@ public class MenuPrincipal extends JFrame {
 
 		JLabel imagenFondo = new JLabel("");
 		imagenFondo.setBounds(-50, 0, 732, 501);
-		imagenFondo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/menu-img.png")));
+		imagenFondo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/Menu.png")));
 		panel.add(imagenFondo);
 
 		JLabel Logo = new JLabel("");
 		Logo.setBounds(722, 80, 150, 156);
-		Logo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/aH-150px.png")));
+		Logo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/HotelALura.png")));
 		panel.add(Logo);
 
 		JPanel panel_1 = new JPanel();
@@ -134,7 +130,7 @@ public class MenuPrincipal extends JFrame {
 		labelExit.setBounds(0, 0, 53, 36);
 		btnexit.add(labelExit);
 		labelExit.setHorizontalAlignment(SwingConstants.CENTER);
-		labelExit.setFont(new Font("Roboto", Font.PLAIN, 18));
+		labelExit.setFont(new Font("Roboto", Font.BOLD, 15));
 
 		JPanel btnLogin = new JPanel();
 		btnLogin.setBounds(754, 300, 83, 70);

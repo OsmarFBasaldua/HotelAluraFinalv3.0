@@ -1,12 +1,10 @@
 package views;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JInternalFrame;
 import java.awt.Color;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -20,6 +18,7 @@ import javax.swing.SwingConstants;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
+import java.util.Objects;
 
 
 public class Login extends JFrame {
@@ -68,7 +67,7 @@ public class Login extends JFrame {
 		panel.setLayout(null);
 		
 		JPanel panel_1 = new JPanel();
-		panel_1.setBackground(new Color(12, 138, 199));
+		panel_1.setBackground(new Color(0, 14, 50));
 		panel_1.setBounds(484, 0, 304, 527);
 		panel.add(panel_1);
 		panel_1.setLayout(null);
@@ -76,7 +75,7 @@ public class Login extends JFrame {
 		JLabel imgHotel = new JLabel("");
 		imgHotel.setBounds(0, 0, 304, 538);
 		panel_1.add(imgHotel);
-		imgHotel.setIcon(new ImageIcon(Login.class.getResource("/imagenes/img-hotel-login-.png")));
+		imgHotel.setIcon(new ImageIcon(Login.class.getResource("/imagenes/HotelLogin-.png")));
 		
 		JPanel btnexit = new JPanel();
 		btnexit.setBounds(251, 0, 53, 36);
@@ -93,11 +92,11 @@ public class Login extends JFrame {
 			}			
 			@Override
 			public void mouseExited(MouseEvent e) {
-				 btnexit.setBackground(new Color(12, 138, 199));
+				 btnexit.setBackground(new Color(0, 14, 50));
 			     labelExit.setForeground(Color.white);
 			}
 		});
-		btnexit.setBackground(new Color(12, 138, 199));
+		btnexit.setBackground(new Color(0, 14, 50));
 		btnexit.setLayout(null);
 		btnexit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 		
@@ -131,7 +130,7 @@ public class Login extends JFrame {
 		txtUsuario.setColumns(10);
 		
 		JSeparator separator = new JSeparator();
-		separator.setBackground(new Color(0, 120, 215));
+		separator.setBackground(new Color(0, 14, 50));
 		separator.setBounds(65, 292, 324, 2);
 		panel.add(separator);
 		
@@ -140,7 +139,7 @@ public class Login extends JFrame {
 		labelTitulo.setFont(new Font("Roboto Black", Font.PLAIN, 26));
 		labelTitulo.setBounds(65, 149, 202, 26);
 		panel.add(labelTitulo);
-		Color customColor = new Color(1, 32, 80);
+		Color customColor = new Color(0, 14, 50);
 		labelTitulo.setForeground(customColor);
 		
 		JSeparator separator_1 = new JSeparator();
@@ -186,7 +185,7 @@ public class Login extends JFrame {
 		btnLogin.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseEntered(MouseEvent e) {
-				btnLogin.setBackground(new Color(0, 156, 223));
+				btnLogin.setBackground(new Color(0, 14, 50));
 			}
 		
 			@Override
@@ -214,7 +213,8 @@ public class Login extends JFrame {
 
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setIcon(new ImageIcon(Login.class.getResource("/imagenes/lOGO-50PX.png")));
+		lblNewLabel_1.setForeground(Color.decode("#FF0000"));
+		lblNewLabel_1.setIcon(new ImageIcon(Objects.requireNonNull(Login.class.getResource("/imagenes/Login3.png"))));
 		lblNewLabel_1.setBounds(65, 65, 48, 59);
 		panel.add(lblNewLabel_1);
 		

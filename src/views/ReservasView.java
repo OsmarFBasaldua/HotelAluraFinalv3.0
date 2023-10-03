@@ -19,21 +19,15 @@ import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 import java.text.Format;
 import java.util.Calendar;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
-import java.awt.event.ActionEvent;
 import java.awt.Toolkit;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;
 import javax.swing.JSeparator;
 import javax.swing.SwingConstants;
-import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
-import javax.swing.border.BevelBorder;
-
 
 
 @SuppressWarnings("serial")
@@ -73,7 +67,7 @@ public class ReservasView extends JFrame {
 		super("Reserva");
 		this.reservasController = new ReservasController();
 
-		setIconImage(Toolkit.getDefaultToolkit().getImage(ReservasView.class.getResource("/imagenes/aH-40px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(ReservasView.class.getResource("/imagenes/HotelAluraLogo.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 560);
 		setResizable(false);
@@ -133,13 +127,13 @@ public class ReservasView extends JFrame {
 		lblNewLabel_3.setEnabled(false);
 		panel.add(lblNewLabel_3);
 		
-		JLabel lblCheckIn = new JLabel("FECHA DE CHECK IN");
+		JLabel lblCheckIn = new JLabel("Fecha de Ingreso");
 		lblCheckIn.setForeground(SystemColor.textInactiveText);
 		lblCheckIn.setBounds(68, 136, 169, 14);
 		lblCheckIn.setFont(new Font("Roboto Black", Font.PLAIN, 18));
 		panel.add(lblCheckIn);
 		
-		JLabel lblCheckOut = new JLabel("FECHA DE CHECK OUT");
+		JLabel lblCheckOut = new JLabel("Fecha de Salida");
 		lblCheckOut.setForeground(SystemColor.textInactiveText);
 		lblCheckOut.setBounds(68, 221, 187, 14);
 		lblCheckOut.setFont(new Font("Roboto Black", Font.PLAIN, 18));
@@ -175,7 +169,7 @@ public class ReservasView extends JFrame {
 		panel.add(txtValor);
 		txtValor.setColumns(10);
 		
-		JLabel lblValor = new JLabel("VALOR DE LA RESERVA");
+		JLabel lblValor = new JLabel("Precio de Reserva");
 		lblValor.setForeground(SystemColor.textInactiveText);
 		lblValor.setBounds(72, 303, 196, 14);
 		lblValor.setFont(new Font("Roboto Black", Font.PLAIN, 18));
@@ -189,28 +183,28 @@ public class ReservasView extends JFrame {
 		txtFormaPago.setModel(new DefaultComboBoxModel(new String[] {"Tarjeta de Crédito", "Tarjeta de Débito", "Dinero en efectivo"}));
 		panel.add(txtFormaPago);
 		
-		JLabel lblFormaPago = new JLabel("FORMA DE PAGO");
+		JLabel lblFormaPago = new JLabel("Forma de Pago");
 		lblFormaPago.setForeground(SystemColor.textInactiveText);
 		lblFormaPago.setBounds(68, 382, 187, 24);
 		lblFormaPago.setFont(new Font("Roboto Black", Font.PLAIN, 18));
 		panel.add(lblFormaPago);
 		
-		JLabel lblTitulo = new JLabel("SISTEMA DE RESERVAS");
+		JLabel lblTitulo = new JLabel("Sistema de Reserva");
 		lblTitulo.setBounds(109, 60, 219, 42);
-		lblTitulo.setForeground(new Color(12, 138, 199));
+		lblTitulo.setForeground(new Color(1, 32, 80));
 		lblTitulo.setFont(new Font("Roboto", Font.BOLD, 20));
 		panel.add(lblTitulo);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBounds(428, 0, 482, 560);
-		panel_1.setBackground(new Color(12, 138, 199));
+		panel_1.setBackground(new Color(1, 32, 80));
 		panel.add(panel_1);
 		panel_1.setLayout(null);
 		
 		JLabel Logo = new JLabel("");
 		Logo.setBounds(197, 68, 104, 107);
 		panel_1.add(Logo);
-		Logo.setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/Ha-100px.png")));
+		Logo.setIcon(new ImageIcon(ReservasView.class.getResource("/imagenes/HotelAluraLogo1.png")));
 		
 		JLabel ImagenFondo = new JLabel("");
 		ImagenFondo.setBounds(0, 140, 500, 409);
@@ -308,7 +302,7 @@ public class ReservasView extends JFrame {
 		btnsiguiente.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				if (ReservasView.txtFechaE.getDate() != null && ReservasView.txtFechaS.getDate() != null) {		
+				if (ReservasView.txtFechaE.getDate() != null && ReservasView.txtFechaS.getDate() != null) {
 					guardarReserva();									
 				} else {
 					JOptionPane.showMessageDialog(null, "Debes llenar todos los campos.");

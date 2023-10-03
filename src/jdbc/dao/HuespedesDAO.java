@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import jdbc.modelo.Huespedes;
-import jdbc.modelo.Reserva;
 
 
 public class HuespedesDAO {
@@ -20,7 +19,7 @@ private Connection connection;
 		this.connection = connection;
 	}
 	
-	public void guardar(Huespedes huesped) {
+	public void guardar(Huespedes huesped) throws RuntimeException {
 		try {
 			String sql = "INSERT INTO huespedes (nombre, apellido, fecha_nacimiento, nacionalidad, telefono, idReserva) VALUES (?, ?, ?, ?,?,?)";
 
@@ -28,12 +27,12 @@ private Connection connection;
 
 				pstm.setString(1, huesped.getNombre());
 				pstm.setString(2, huesped.getApellido());
-				pstm.setDate(3, huesped.getFechaNacimiento());
+				pstm.setDate(3, huesped.getFecha_nacimiento());
 				pstm.setString(4, huesped.getNacionalidad());
 				pstm.setString(5, huesped.getTelefono());
 				pstm.setInt(6, huesped.getIdReserva());
 
-				pstm.execute();
+				boolean execute = pstm.execute();
 
 				try (ResultSet rst = pstm.getGeneratedKeys()) {
 					while (rst.next()) {

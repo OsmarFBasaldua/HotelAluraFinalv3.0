@@ -6,7 +6,7 @@ public class Huespedes {
 	private Integer Id;
 	private String Nombre;
 	private String Apellido;
-	private Date FechaNacimiento;
+	private Date Fecha_nacimiento;
 	private String Nacionalidad;
 	private String Telefono;
 	private Integer IdReserva;
@@ -16,19 +16,19 @@ public class Huespedes {
 		super();
 		Nombre = nombre;
 		Apellido = apellido;
-		FechaNacimiento = fechaNacimiento;
+		Fecha_nacimiento = fechaNacimiento;
 		Nacionalidad = nacionalidad;
 		Telefono = telefono;
 		IdReserva = idReserva;
 	}
 	
-	public Huespedes(Integer id, String nombre, String apellido, Date fechaNacimiento, String nacionalidad,
+	public Huespedes(Integer id, String nombre, String apellido, Date fecha_nacimiento, String nacionalidad,
 			String telefono, Integer idReserva) {
 		super();
 		Id = id;
 		Nombre = nombre;
 		Apellido = apellido;
-		FechaNacimiento = fechaNacimiento;
+		Fecha_nacimiento = fecha_nacimiento;
 		Nacionalidad = nacionalidad;
 		Telefono = telefono;
 		IdReserva = idReserva;
@@ -68,12 +68,12 @@ public class Huespedes {
 		Nacionalidad = nacionalidad;
 	}
 
-	public Date getFechaNacimiento() {
-		return FechaNacimiento;
+	public Date getFecha_nacimiento() {
+		return Fecha_nacimiento;
 	}
 
-	public void setFechaNacimiento(Date fechaNacimiento) {
-		FechaNacimiento = fechaNacimiento;
+	public void setFecha_nacimiento(Date fecha_nacimiento) {
+		Fecha_nacimiento = fecha_nacimiento;
 	}
 
 	public String getTelefono() {

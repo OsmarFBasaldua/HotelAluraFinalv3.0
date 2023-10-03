@@ -38,7 +38,7 @@ public class Exito extends JDialog {
 	 * Create the dialog.
 	 */
 	public Exito() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Exito.class.getResource("/imagenes/aH-40px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Exito.class.getResource("/imagenes/HotelAluraLogo.png")));
 		setBounds(100, 100, 394, 226);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBackground(SystemColor.control);
@@ -48,12 +48,12 @@ public class Exito extends JDialog {
 		contentPanel.setLayout(null);
 		{
 			JLabel lblNewLabel = new JLabel("");
-			lblNewLabel.setIcon(new ImageIcon(Exito.class.getResource("/imagenes/Ha-100px.png")));
-			lblNewLabel.setBounds(123, 11, 100, 100);
+			lblNewLabel.setIcon(new ImageIcon(Exito.class.getResource("/imagenes/Exito.png")));
+			lblNewLabel.setBounds(145, 11, 100, 100);
 			contentPanel.add(lblNewLabel);
 		}
 		{
-			JLabel lblNewLabel_1 = new JLabel("Datos guardados satisfactoriamente");
+			JLabel lblNewLabel_1 = new JLabel("Datos Guardados Satisfactoriamente");
 			lblNewLabel_1.setForeground(new Color (1, 32, 80));
 			lblNewLabel_1.setFont(new Font("Arial", Font.BOLD, 18));
 			lblNewLabel_1.setBounds(27, 122, 322, 21);
