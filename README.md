@@ -1,4 +1,5 @@
 # HotelAlura | Challenge ONE
+
 <p align="center" >
      <img width="300" heigth="300" src="C:\Users\osmar_y4jzzou\OneDrive\Escritorio\HotelAluraFinal\HotelAluraFinalv3.0\src\imagenes\Logo300.png">
 </p>
